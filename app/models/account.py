@@ -1,0 +1,40 @@
+# app/models/account.py
+from pydantic import BaseModel
+from typing import Optional
+
+class AccountInfo(BaseModel):
+    login: int
+    trade_mode: int
+    leverage: int
+    balance: float
+    credit: float
+    profit: float
+    equity: float
+    margin: float
+    free_margin: float
+    margin_level: float
+    margin_so_call: float
+    margin_so_mode: bool
+    margin_so_covered: float
+    margin_mode: int
+    margin_currency: str
+    server: str
+    company: str
+    name: str
+    currency: str
+    currency_digits: int
+    assets: float
+    liabilities: float
+    commission_blocked: float
+    margin_blocked: float
+    swap_blocked: float
+    profit_blocked: float
+    taxes_blocked: float
+    withdraw_blocked: float
+    acc_type: int
+    limit_orders: int
+    margin_hedged: float
+    trade_expert: bool
+    trade_automation: bool
+    margin_free_mode: bool
+    margin_mode_flags: int

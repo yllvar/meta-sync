@@ -1,0 +1,47 @@
+# app/models/system.py
+from pydantic import BaseModel
+
+class TerminalInfo(BaseModel):
+    community_balance: float
+    community_total: float
+    company: str
+    name: str
+    path: str
+    data_path: str
+    commondata_path: str
+    language: str
+    is_demo: bool
+    connected: bool
+    trade_allowed: bool
+    trade_expert: bool
+    trade_automation: bool
+    margin_mode: int
+    leverage: int
+    balance: float
+    credit: float
+    profit: float
+    equity: float
+    margin: float
+    free_margin: float
+    margin_level: float
+    margin_so_mode: bool
+    margin_so_call: float
+    margin_so_covered: float
+    server: str
+    trade_server: str
+    connected_to: str
+    time_zone: str
+    time_synchronization: bool
+    dlls_allowed: bool
+    trade_api: bool
+    email_enabled: bool
+    ftp_enabled: bool
+    notifications_enabled: bool
+    trade_contexts_allowed: int
+    max_symbols: int
+    currency: str
+    codepage: int
+    digits: int
+    stop_level: int
+    free_margin_mode: bool
+    margin_mode_flags: int

@@ -1,0 +1,13 @@
+# .gitignore
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+.DS_Store
+.vscode/
+.venv/
+dist/
+build/
+*.log
