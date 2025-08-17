@@ -7,7 +7,7 @@
 > **Production-ready FastAPI solution for MT5 automation**  
 > The most developer-friendly way to automate MetaTrader 5 trading
 
-🔗 **[Try Now on RapidAPI](https://rapidapi.com/metasync-metasync-default/api/metasyc)** | 📚 **[Full Documentation](https://docs.metasync.com)** | 💬 [Join Our Discord](https://discord.gg/yourlink)
+🔗 **[Try Now on RapidAPI](https://rapidapi.com/metasync-metasync-default/api/metasyc)** | 📚 **[Full Documentation](https://rapidapi.com/metasync-metasync-default/api/metasyc)** | 
 
 
 
